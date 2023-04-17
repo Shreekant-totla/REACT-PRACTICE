@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "john.doe",
+      "password": "password123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "jane.doe",
+      "password": "password456",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "username": "bob.smith",
+      "password": "password789",
+      "role": "user"
+    }
+  ],
+  "notices": [
+    {
+      "id": 1,
+      "title": "Important Announcement",
+      "message": "All employees are required to attend the meeting tomorrow at 10am in the conference room.",
+      "date": "2022-01-01",
+      "category": "Announcement",
+      "author_id": 2
+    },
+    {
+      "id": 2,
+      "title": "Holiday Party Invitation",
+      "message": "Join us for our annual holiday party on December 15th at 6pm in the break room. Food and drinks will be provided!",
+      "date": "2022-01-02",
+      "category": "Event",
+      "author_id": 3
+    },
+    {
+      "id": 3,
+      "title": "Department Meeting",
+      "message": "There will be a department meeting on Wednesday, December 20th at 2pm in the conference room.",
+      "date": "2022-01-03",
+      "category": "Meeting",
+      "author_id": 2
+    },
+    {
+      "id": 4,
+      "title": "New Employee Orientation",
+      "message": "All new employees are required to attend orientation on their first day of work. Please report to the HR office at 9am.",
+      "date": "2022-01-04",
+      "category": "Announcement",
+      "author_id": 1
+    }
+  ]
+}
